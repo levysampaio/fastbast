@@ -3,9 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    
+    <!--Icons-->
+    <link rel="stylesheet" href="assets/fonts/style.css">
+   
+    <!--Styles-->
     <link rel="stylesheet" href="style.css">
 
+    <!--Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
@@ -14,45 +19,76 @@
 </head>
 <body>
     
-    <header id = "Header">
-        <nav class = "Conteiner">
+    <header id = "header">
+        <nav class = "container">
             <a class = "logo" href="home">Fast<span>Best</span>.</a>
-            <div class="Menu">
-                <ul>
-                    <li><a href="#home">Inicio</a></li>
-                    <li><a href="#about">Sobre</li>
-                    <li><a href="#services">Serviços</a></li>
-                    <li><a href="testimonials">Depoimentos</a></li>
-                    <li><a href="Contact">Contato</a></li>
+            <div class="menu">
+                <ul class="grid">
+                    <li><a class="title" href="#home">Inicio</a></li>
+                    <li><a class="title" href="#about">Sobre</a></li>
+                    <li><a class="title" href="#services">Serviços</a></li>
+                    <li><a class="title" href="#testimonials">Depoimentos</a></li>
+                    <li><a class="title" href="#contact">Contato</a></li>
                 </ul>
             </div>
+            <div class="toggle icon-close"></div>
+            <div class="toggle icon-menu"></div>
         </nav>
     </header>  
-  <main>  
-    <section class="section" id="home">
-        <div class="Container grid">
-            <div class="image">
-                 <img src="https://images.unsplash.com/photo-1517840545241-b491010a8af4?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHNld2luZ3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Mulher Custurando">
+
+    <main>  
+        <section class="section" id="home">
+            <div class="container grid">
+                <div class="image">
+                    <img src="https://images.unsplash.com/photo-1517840545241-b491010a8af4?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHNld2luZ3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Mulher Costurando">
+                </div>
+                <div class="text">
+                    <h2 class = "title">Costura de qualidade</h1>
+                    <p>Alfaitaria exclusiva em Curitiba, especializada na qualidade dos cortes e costura</p>
+                     <a class="button" href="#">Contato</a>
+                </div>
             </div>
-            <div class="text">
-                <h1>Costura de qualidade</h1>
-                <p>Alfaitaria exclusiva em Curitiba, especializada na qualidade dos cortes e costura</p>
-                <a class="button" href="#">Contato</a>
-            </div>
-        </div>
-
-    <div class="divider-1"></div>
-
-    <section class="section" id="about">
-        <div class="Container Grid">
-
-        </div>
-    </section>
+        </setion>
         
-    <section class="section" id="services">
-        <div class="Container Grid">
+        <div class="divider-1"></div>
 
-        </div>
-    </section>
-</main>
+        <section class="section" id="about">
+            <div class="container grid">
+                <div class="image"><img src="https://images.unsplash.com/photo-1560796952-f1c9b838544c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8c2V3aW5nfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Máquina de costura">
+                </div>
+                <div class="text">
+                    <h2 class="title">Sobre nós</h2>
+                    <p class="text">  As experiências acumuladas demonstram que o novo modelo estrutural aqui preconizado nos obriga à análise do levantamento das variáveis envolvidas. Gostaria de enfatizar que a consulta aos diversos militantes promove a alavancagem dos relacionamentos verticais entre as hierarquias. Todas estas questões, devidamente ponderadas, levantam dúvidas sobre se a competitividade nas transações comerciais apresenta tendências no sentido de aprovar a manutenção das regras de conduta normativas.</p>
+                    <p class="text"> Caros amigos, a crescente influência da mídia obstaculiza a apreciação da importância dos níveis de motivação departamental. Do mesmo modo, o início da atividade geral de formação de atitudes faz parte de um processo de gerenciamento das diversas correntes de pensamento. Desta maneira, o desafiador cenário globalizado agrega valor ao estabelecimento do sistema de participação geral. Nunca é demais lembrar o peso e o significado destes problemas, uma vez que a constante divulgação das informações causa impacto indireto na reavaliação do sistema de formação de quadros que corresponde às necessidades.</p>
+                </div>
+            </div>
+        </section>
+        
+        <div class="divider-2"></div>
+
+        <section class="section" id="services">
+            <div class="container grid">
+                <header>
+                    <h2 class="title">Serviços</h2>
+                    <p class="text">Lorem ipsum porttitor senectus etiam <strong>scelerisque</strong> convallis eu ac varius, venenatis sociosqu vivamus donec eu justo fames a, ut hendrerit ultrices sodales fusce tortor fringilla sociosqu.</p>
+                </header>
+                
+                <div class="cards grid">
+                    <div class="card">
+                        <i class="icon-woman-hair"></i>
+                        <h2 class="title">Modelos Prontos</h2>
+                        <p class="text"> Lorem ipsum porttitor senectus etiam scelerisque convallis eu ac varius, venenatis sociosqu vivamus donec eu justo fames a, ut hendrerit ultrices sodales fusce tortor fringilla sociosqu.</p>
+                    </div>
+                    <div class="card">
+                        <i class="icon-trim"></i>
+                        <h2 class="title">Reparos</h2>
+                        <p class="text">Lorem ipsum porttitor senectus etiam scelerisque convallis eu ac varius, venenatis sociosqu vivamus donec eu justo fames a, ut hendrerit ultrices sodales fusce tortor fringilla sociosqu.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+<script src="main.js"></script>
+</body>  
 </html>
