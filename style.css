@@ -31,7 +31,7 @@ img {
   --base-color-alt: hsl(var(--hue) 57% 53%);
   --title-color: hsl(var(--hue 41% 10%));
   --text-color: hsl(0 0% 46%);
-  --texte-color-light: hsl(0 0% 98%);
+  --text-color-light: hsl(0 0% 98%);
   --body-color: hsl(0 0% 98%);
 }
 
@@ -157,6 +157,10 @@ main {
 
 .logo span {
   color: var(--base-color);
+}
+
+.logo-alt span {
+  color: var(--body-color);
 }
 
 /*===============NAVIGATION===============*/
@@ -457,3 +461,30 @@ nav.show div.icon-close {
   
 
 }
+
+/*===============FOOTER===============*/
+footer{
+  background: var(--base-color);
+}
+
+footer .logo{
+  display: inline-block;
+  margin-bottom: 1.5rem;
+}
+
+footer .brand p{
+  color: var(--text-color-light);
+  margin-bottom: 0.75rem;
+  text-align: center;
+}
+
+footer i{
+  font-size: 1.5rem;
+  color: var(--text-color-light);
+}
+
+footer .social a{
+  margin-right: 2rem;
+
+}
+
