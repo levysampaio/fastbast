@@ -1,202 +1,271 @@
 <!DOCTYPE html>
 <html lang="pt_BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!--Icons-->
-    <link rel="stylesheet" href="assets/fonts/style.css">
+  <head>
+    <!-- PAGE INFO -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Winsdow</title>
 
-    <!--Swipper-->
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-   
-    <!--Styles-->
-    <link rel="stylesheet" href="style.css">
+    <!-- Icones -->
+    <link rel="stylesheet" href="assets/fonts/style.css" />
 
-    <!--Fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap" 
-    rel="stylesheet">
+    <!-- Swiper -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
 
-    <title>FastBest</title>
-</head>
-<body>
-    
-    <header id = "header">
-        <nav class = "container">
-            <a class = "logo" href="home">Fast<span>Best</span>.</a>
-            <div class="menu">
-                <ul class="grid">
-                    <li><a class="title" href="#home">Inicio</a></li>
-                    <li><a class="title" href="#about">Sobre</a></li>
-                    <li><a class="title" href="#services">Serviços</a></li>
-                    <li><a class="title" href="#testimonials">Depoimentos</a></li>
-                    <li><a class="title" href="#contact">Contato</a></li>
-                </ul>
+    <!-- STYLES -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="header">
+      <nav class="container">
+        <a class="logo" href="#">Wins<span>Dow</span>.</a>
+        <!-- menu -->
+        <div class="menu">
+          <ul class="grid">
+            <li><a class="title" href="#home">Início</a></li>
+            <li><a class="title" href="#about">Sobre</a></li>
+            <li><a class="title" href="#services">Serviços</a></li>
+            <li><a class="title" href="#testimonials">Depoimentos</a></li>
+            <li><a class="title" href="#contact">Contato</a></li>
+          </ul>
+        </div>
+        <!-- /menu -->
+        <div class="toggle icon-menu"></div>
+        <div class="toggle icon-close"></div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- HOME -->
+      <section class="section" id="home">
+        <div class="container grid">
+          <div class="image">
+            <img src="https://images.unsplash.com/photo-1502217625004-89c03571bcca?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="Mulher Costurando">
+          </div>
+          <div class="text">
+            <h2 class="title">Costura de qualidade</h2>
+            <p>
+              Um atelier exclusivo em Curitiba, especializado em costura de qualidade.
+            </p>
+            <a class="button" href="#">Agende um orçamento</a>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-1"></div>
+
+      <!-- ABOUT -->
+      <section class="section" id="about">
+        <div class="container grid">
+          <div class="image">
+            <img src="https://images.unsplash.com/photo-1560796952-f1c9b838544c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8c2V3aW5nfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Máquina de costura">
+          </div>
+          <div class="text">
+            <h2 class="title">Sobre nós</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Necessitatibus deleniti perferendis vel molestiae soluta, quaerat
+              beatae dicta ducimus praesentium architecto harum dolorum
+              distinctio illo earum assumenda itaque. Omnis, quam repellat.
+            </p>
+            <br />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
+              illum ratione impedit quae eum quis adipisci asperiores, est
+              doloribus distinctio excepturi minima eius dolore! Perferendis
+              laborum illo aspernatur repellendus ipsum.
+            </p>
+            <br />
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed
+              exercitationem, illum sapiente quasi hic iusto odio maiores esse
+              quaerat quis necessitatibus at odit, dolores dicta, officia ab
+              quos. Provident, quae.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-2"></div>
+
+      <!-- SERVICES -->
+      <section class="section" id="services">
+        <div class="container grid">
+          <header>
+            <h2 class="title">Serviços</h2>
+            <p class="subtitle">
+              Com mais de 10 anos no mercado, o <strong>Winsdow</strong> já
+              conquistou clientes de inúmeros países com seus tratamentos
+              exclusivos e totalmente naturais
+            </p>
+          </header>
+          <div class="cards grid">
+            <div class="card">
+              <i class="icon-trim"></i>
+              <h3 class="title">Modelos Prontos</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+                distinctio neque blanditiis, dolorem aperiam nulla explicabo
+                asperiores
+              </p>
             </div>
-            <div class="toggle icon-close"></div>
-            <div class="toggle icon-menu"></div>
-        </nav>
-    </header>  
-
-    <main>  
-        <section class="section" id="home">
-            <div class="container grid">
-                <div class="image">
-                    <img src="https://images.unsplash.com/photo-1517840545241-b491010a8af4?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHNld2luZ3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Mulher Costurando">
-                </div>
-                <div class="text">
-                    <h2 class = "title">Costura de qualidade</h1>
-                    <p>Alfaitaria exclusiva em Curitiba, especializada na qualidade da sua costura</p>
-                     <a class="button" href="#">Agende seu Orçamento</a>
-                </div>
+            <div class="card">
+              <i class="icon-trim"></i>
+              <h3 class="title">Reparos</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+                distinctio neque blanditiis, dolorem aperiam nulla explicabo
+                asperiores
+              </p>
             </div>
-        </setion>
-        
-        <div class="divider-1"></div>
-
-        <section class="section" id="about">
-            <div class="container grid">
-                <div class="image"><img src="https://images.unsplash.com/photo-1560796952-f1c9b838544c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8c2V3aW5nfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Máquina de costura">
-                </div>
-                <div class="text">
-                    <h2 class="title">Sobre nós</h2>
-                    <p class="text">  As experiências acumuladas demonstram que o novo modelo estrutural aqui preconizado nos obriga à análise do levantamento das variáveis envolvidas. Gostaria de enfatizar que a consulta aos diversos militantes promove a alavancagem dos relacionamentos verticais entre as hierarquias. Todas estas questões, devidamente ponderadas, levantam dúvidas sobre se a competitividade nas transações comerciais apresenta tendências no sentido de aprovar a manutenção das regras de conduta normativas.</p>
-                    <p class="text"> Caros amigos, a crescente influência da mídia obstaculiza a apreciação da importância dos níveis de motivação departamental. Do mesmo modo, o início da atividade geral de formação de atitudes faz parte de um processo de gerenciamento das diversas correntes de pensamento. Desta maneira, o desafiador cenário globalizado agrega valor ao estabelecimento do sistema de participação geral. Nunca é demais lembrar o peso e o significado destes problemas, uma vez que a constante divulgação das informações causa impacto indireto na reavaliação do sistema de formação de quadros que corresponde às necessidades.</p>
-                </div>
+            <div class="card">
+              <i class="icon-trim"></i>
+              <h3 class="title">Fabricação</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+                distinctio neque blanditiis, dolorem aperiam nulla explicabo
+                asperiores
+              </p>
             </div>
-        </section>
-        
-        <div class="divider-2"></div>
+          </div>
+        </div>
+      </section>
 
-        <section class="section" id="services">
-            <div class="container grid">
-                <header>
-                    <h2 class="title">Serviços</h2>
-                    <p class="text">Lorem ipsum porttitor senectus etiam <strong>scelerisque</strong> convallis eu ac varius, venenatis sociosqu vivamus donec eu justo fames a, ut hendrerit ultrices sodales fusce tortor fringilla sociosqu.</p>
-                </header>
-                
-                <div class="cards grid">
-                    <div class="card">
-                        <i class="icon-woman-hair"></i>
-                        <h2 class="title">Modelos Prontos</h2>
-                        <p class="text"> Lorem ipsum porttitor senectus etiam scelerisque convallis eu ac varius, venenatis sociosqu vivamus donec eu justo fames a, ut hendrerit ultrices sodales fusce tortor fringilla sociosqu.</p>
-                    </div>
-                    <div class="card">
-                        <i class="icon-trim"></i>
-                        <h2 class="title">Reparos</h2>
-                        <p class="text">Lorem ipsum porttitor senectus etiam scelerisque convallis eu ac varius, venenatis sociosqu vivamus donec eu justo fames a, ut hendrerit ultrices sodales fusce tortor fringilla sociosqu.</p>
-                    </div>
-                </div>
+      <div class="divider-1"></div>
+
+      <!-- TESTIMONIALS -->
+      <section class="section" id="testimonials">
+        <div class="container">
+          <header>
+            <h2 class="title">Depoimentos de quem já passou por aqui</h2>
+          </header>
+          <div class="testimonials swiper-container">
+            <div class="swiper-wrapper">
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Rerum blanditiis saepe nam excepturi explicabo ipsa error
+                    ipsam neque
+                  </p>
+                  <cite>
+                    <img src="https://randomuser.me/api/portraits/men/56.jpg" alt="">
+                    Renato Souza
+                  </cite>
+                </blockquote>
+              </div>
+
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Rerum blanditiis saepe nam excepturi explicabo ipsa error
+                    ipsam neque
+                  </p>
+                  <cite>
+                    <img src="https://randomuser.me/api/portraits/women/3.jpg" alt="">
+                    Franciele Venega
+                  </cite>
+                </blockquote>
+              </div>
+
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Rerum blanditiis saepe nam excepturi explicabo ipsa error
+                    ipsam neque
+                  </p>
+                  <cite>
+                    <img src="https://randomuser.me/api/portraits/women/63.jpg" alt="">
+                    Valeska Fabris
+                  </cite>
+                </blockquote>
+              </div>
             </div>
-        </section>
 
-        <div class="divider-1"></div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
 
-        <section class="section" id="testimonials">
-            <div class="container">
-                <header>
-                    <h2 class="title">Depoimento de quem já passou por aqui!</h2>
-                </header>
-                <div class="testimonials swiper-container">
-                    <div class="swiper-wrapper">
-                        <div class="testimonial swiper-slide">
-                            <blockquote>
-                                <p>
-                                    <span>&ldquo;</span>
-                                    Lorem ipsum porttitor senectus etiam scelerisque convallis eu ac varius, venenatis sociosqu vivamus donec eu justo fames a, ut hendrerit ultrices sodales fusce tortor fringilla sociosqu.
+      <div class="divider-2"></div>
 
-                                </p>
-                                <cite><img src="https://randomuser.me/api/portraits/women/63.jpg" alt="">Wanessa Souza</cite>
+      <!-- CONTACT -->
+      <section class="section" id="contact">
+        <div class="container grid">
+          <div class="text">
+            <h2 class="title">Entre em contato com a gente!</h2>
+            <p>
+              Entre em contato com a Beautysalon, queremos tirar suas dúvidas,
+              ouvir suas críticas e sugestões.
+            </p>
+            <a
+              href="https://api.whatsapp.com/send?phone=+5511998456754&text=Olá! Gostaria fazer um orçamento"
+              class="button"
+              target="_blank"
+              ><i class="icon-whatsapp"></i> Entrar em contato</a
+            >
+          </div>
 
+          <div class="links">
+            <ul class="grid">
+                <li><i class="icon-phone"></i>(41) 9 9127-6302</li>
+                <li><i class="icon-map-pin"></i>R. Dep. Paulo Wright, 85 - CIC - Curitiba - PR CEP: 81270-300</li>
+                <li><i class="icon-mail"></i>cosmac.cordeiro@hotmail.com</li>
+            </ul>
+          </div>
+        </div>
+      </section>
 
-                            </blockquote>
-                        </div>
-
-                        <div class="testimonial swiper-slide">
-                            <blockquote>
-                                <p>
-                                    <span>&ldquo;</span>
-                                    Lorem ipsum porttitor senectus etiam scelerisque convallis eu ac varius, venenatis sociosqu vivamus donec eu justo fames a, ut hendrerit ultrices sodales fusce tortor fringilla sociosqu.
-
-                                </p>
-                                <cite><img src="https://randomuser.me/api/portraits/men/56.jpg" alt="">Renato Silva</cite>
-
-
-                            </blockquote>
-                         </div>
-
-                        <div class="testimonial swiper-slide">
-                            <blockquote>
-                                <p>
-                                    <span>&ldquo;</span>
-                                    Lorem ipsum porttitor senectus etiam scelerisque convallis eu ac varius, venenatis sociosqu vivamus donec eu justo fames a, ut hendrerit ultrices sodales fusce tortor fringilla sociosqu.
-
-                                </p>
-                                <cite><img src="https://randomuser.me/api/portraits/women/3.jpg" alt="">Mari Franco</cite>
-
-
-                            </blockquote>
-                        </div>
-                    </div>
-
-                    <div class="swiper-pagination"></div>
-
-        
-                </div>
-                
-                
-            </div>
-        </section>
-
-        <div class="divider-2"></div>
-
-        <section class="section" id="contact">
-            <div class="container grid">
-                <div class="text">
-                    <h2 class="title">Entre em contato com a gente!</h2>
-                    <p>Faz seu orgamento realize sua reforma ou faço o pedido da fabricação do seu modelo! </p>
-                    <a href = "https://api.whatsapp.com/send?phone=+5541991276302&text=Olá" class="button" target="_black"><i class="icon-whatsapp"></i>Entrar em contato</a>
-                
-                </div>
-
-                <div class="links">
-                    <ul>
-                        <li><i class="icon-phone"></i>(41) 9 9127-6302</li>
-                        <li><i class="icon-map-pin"></i>R. Dep. Paulo Wright, 85 - CIC - Curitiba - PR CEP: 81270-300</li>
-                        <li><i class="icon-mail"></i>cosmac.cordeiro@hotmail.com</li>
-                    </ul>
-
-                </div>
-            </div>
-        </section>
-
+      <div class="divider-1"></div>
     </main>
 
     <footer class="section">
-        <div class="contrainer grid">
-            <div class="brand">
-                <a class = "logo logo-alt" href="home">Fast<span>Best</span>.</a>
-                <p>© 2021 FastBest Todos os direitos reservados</p>
-            </div>
-            <div class="social">
-                <a href=""><i class="icon-instagram"></i></a>
-                <a href=""><i class="icon-facebook"></i></a>
-            </div>
-
+      <div class="container grid">
+        <div class="brand">
+          <a class="logo logo-alt" href="#home">Wins<span>Dow</span>.</a>
+          <p>©2021 Winsdow.</p>
+          <p>Todos os direitos reservados.</p>
         </div>
+
+        <div class="social grid">
+          <a href="https://instagram.com" target="_blank">
+            <i class="icon-instagram"></i>
+          </a>
+          <a href="https://facebook.com" target="_blank">
+            <i class="icon-facebook"></i
+          ></a>
+          <a href="https://youtube.com" target="_blank"
+            ><i class="icon-youtube"></i
+          ></a>
+        </div>
+      </div>
     </footer>
 
-<!--ScrollReavel-->    
-<script src="https://unpkg.com/scrollreveal"></script>
+    <a href="#home" class="back-to-top"><i class="icon-arrow-up"></i></a>
 
-<!--Swipper-->
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- swiper -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-<!--main-->
-<script src="main.js"></script>
+    <!-- scrollreveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
 
-
-</body>  
+    <!-- main.js -->
+    <script src="main.js"></script>
+  </body>
 </html>
